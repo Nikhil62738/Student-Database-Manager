@@ -1,0 +1,190 @@
+.btnSubmit
+{
+
+     width: 100px;
+    cursor: pointer;
+    margin: 20px;
+    border: 1px solid #000000;
+    outline: none;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+    align-items: center;
+    position: absolute;
+   
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+    
+}
+.btnSubmit:hover{
+    box-shadow: 5px 5px 5px #000;
+}
+.btnSubmit:active
+{
+    scale: 0.9;
+} 
+/* .py-5{
+    height: 100%;
+    width: 100%;
+  background-color: aqua;
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+    
+} */
+.form-control{
+    font: inherit;
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #000000;
+    border-radius: 10px; 
+     outline: none;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    color: rgb(5, 5, 5);
+    
+    
+    
+    
+   
+    
+}
+.card mt-3
+{
+    letter-spacing: 1px;
+}
+
+
+.card h6{
+    font-size: 20px;
+    color: black;
+    padding: 0px 0px;
+    cursor: pointer;
+    display: block;
+    margin: 20px;
+    font-weight: bold;
+}
+.roll
+{
+padding-left: 20px;
+font-size: 15px;
+padding-right: 20px;
+}
+.form-control1{
+    font: inherit;
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #000000;
+    border-radius: 10px; 
+     outline: none;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    color: rgb(5, 5, 5);
+    
+    
+    
+    
+   
+    
+}
+::placeholder{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.label
+{
+    padding-left: 10px;
+font-size: 15px;
+padding-right: 10px;
+}
+
+button {
+    /* display: inline-block; */
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #03045e;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    
+    /* padding: 10px 10px; */
+    cursor: pointer;
+    /* display: block; */
+    margin: 20px;
+
+    
+   }
+   
+   button::before,
+   button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(45deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   button::before {
+    left: -15px;
+    background: #ff0000;
+   }
+   
+   button::after {
+    right: -15px;
+    background: #000000;
+   }
+   
+   button:hover::before,
+   button:hover::after {
+    width: 70%;
+   }
+   
+   button:hover span {
+    color: #ffffff;
+    transition: 0.3s;
+    font-weight: bold
+   }
+   
+   button span {
+    color: #000000;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+   }
+   .btnSubmit1
+   {
+   
+        width: 100px;
+       cursor: pointer;
+       margin: 63px 300px;
+       border: 1px solid #000000;
+       outline: none;
+       border-radius: 10px;
+       transition: all ease 0.5s;
+       align-items: center;
+       position: absolute;
+      
+       font-size: 15px;
+       font-weight: bold;
+       
+       
+       
+   }
+   .btnSubmit1:hover{
+       box-shadow: 5px 5px 5px #000;
+   }
+   .btnSubmit1:active
+   {
+       scale: 0.9;
+   } 
+   
